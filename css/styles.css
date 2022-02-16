@@ -1,0 +1,57 @@
+body {
+  background-color:#F2D6BD
+}
+
+h1 {
+  font-family: Serif;
+  color: #027373;
+  font-style:normal
+}
+
+h2 {
+  font-family: Serif;
+  color: #5BA6A5
+}
+
+h3 {
+  font-family: Serif;
+  color: #027373
+}
+
+h4 {
+  font-family: Serif;
+  color: #5BA6A5
+}
+
+h5 {
+  font-family: Serif;
+  color: #027373
+}
+
+h6 {
+  font-family: Serif;
+  color: #5BA6A5
+}
+
+p {
+  font-family: Serif;
+  color: #027373
+}
+
+a {
+  font-family: Serif;
+  color: #5BA6A5
+}
+
+a:hover{
+  color: #95BBBF;
+}
+
+hr {
+  color: #95BBBF;
+  text-shadow: 0px 50px #D9B9AD
+}
+
+img {
+  border: dotted
+}
