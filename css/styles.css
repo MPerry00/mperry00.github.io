@@ -1,46 +1,46 @@
 body {
-  background-color:#F2D6BD
+  background-color:#EDE9F2
 }
 
 h1 {
   font-family: Serif;
-  color: #027373;
+  color: ##8E6BBF;
   font-style:normal
 }
 
 h2 {
   font-family: Serif;
-  color: #5BA6A5
+  color: #AE8FD9
 }
 
 h3 {
   font-family: Serif;
-  color: #027373
+  color: ##8E6BBF
 }
 
 h4 {
   font-family: Serif;
-  color: #5BA6A5
+  color: #AE8FD9
 }
 
 h5 {
   font-family: Serif;
-  color: #027373
+  color: ##8E6BBF
 }
 
 h6 {
   font-family: Serif;
-  color: #5BA6A5
+  color: #AE8FD9
 }
 
 p {
   font-family: Serif;
-  color: #027373
+  color: black
 }
 
 a {
   font-family: Serif;
-  color: #5BA6A5
+  color: #AE8FD9
 }
 
 a:hover{
@@ -48,8 +48,8 @@ a:hover{
 }
 
 hr {
-  color: #95BBBF;
-  text-shadow: 0px 50px #D9B9AD
+  color: #8E6BBF;
+  text-shadow: 0px 50px #D2BBF2
 }
 
 img {
