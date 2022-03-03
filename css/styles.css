@@ -1,57 +1,66 @@
-body {
-  background-color:#EDE9F2
+body{
+  background-color: #EDE9F2
 }
 
-h1 {
+h1, h3, h5 {
   font-family: Serif;
-  color: ##8E6BBF;
+  color: #8E6BBF;
   font-style:normal
 }
 
-h2 {
+h2, h4, h6 {
   font-family: Serif;
-  color: #AE8FD9
+  color: #AE8FD9;
+  font-style:normal;
 }
 
-h3 {
-  font-family: Serif;
-  color: ##8E6BBF
+.topNav {
+  background-color: #AE8FD9;
+  overflow: hidden
 }
 
-h4 {
-  font-family: Serif;
-  color: #AE8FD9
+.topNav a{
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-h5 {
-  font-family: Serif;
-  color: ##8E6BBF
+.topNav a.active {
+  background-color: #8E6BBF;
+  color:white;
 }
 
-h6 {
-  font-family: Serif;
-  color: #AE8FD9
+.topNav .icon {
+  display:none;
 }
 
-p {
-  font-family: Serif;
-  color: black
+
+@media screen and (max-width:400px) {
+  html {font-size: 70%;
+    flex:100%;
+    flex-flow: column wrap;
+  }
+  img {
+    max-width: 100%
+  }
+  .topNav a:not (:first-child) {
+    display:none;
+  }
+  .topNav a.icon {
+    float: right;
+    display:block;
+  }
 }
 
-a {
-  font-family: Serif;
-  color: #AE8FD9
-}
+@media screen and (max-width:1900px) {
+  html {
+    font-size: 70%;
+    flex:100%;
+    flex-flow: column wrap;
 
-a:hover{
-  color: #95BBBF;
-}
-
-hr {
-  color: #8E6BBF;
-  text-shadow: 0px 50px #D2BBF2
-}
-
-img {
-  border: dotted
+  }
 }
