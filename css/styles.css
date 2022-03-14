@@ -22,11 +22,11 @@ a {
   color: #D2BBF2;
 }
 
-a:hover {
+a hover {
   font-weight: bold;
 }
 
-a:clicked {
+a clicked {
   color: #8E6BBF;
 }
 
