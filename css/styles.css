@@ -18,6 +18,8 @@ p {
   color:black;
 }
 
+/* NAVIGATION BAR =========================================================== */
+
 .topNav {
   background-color: #DED0F2;
   display: flex;
@@ -51,6 +53,40 @@ p {
   color: #AE8FD9;
 }
 
+/* PAST WORK PAGE =========================================================== */
+.topExplain {
+  padding-left: 2rem;
+}
+
+.workSections {
+  display: grid;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2rem;
+}
+
+.webWork {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: dotted;
+  border-color: #8E6BBF;
+  border-width: medium;
+}
+
+.businessWork {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: dotted;
+  border-color: #8E6BBF;
+  border-width: medium;
+}
+
+
+/* ABOUT ME PAGE ============================================================ */
 .intro {
   display: grid;
   padding-top: 3rem;
@@ -103,9 +139,16 @@ p {
 
 
 @media screen and (max-width:400px) {
+/* NAVIGATION BAR =========================================================== */
   .topNav {
     padding: 2px 2px 2px 2px;
   }
+/* PAST WORK PAGE =========================================================== */
+  .workSections {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+/* ABOUT ME PAGE ============================================================ */
   .intro {
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 0.5fr 1fr;
