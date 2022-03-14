@@ -18,6 +18,23 @@ p {
   color:black;
 }
 
+a {
+  color: #D2BBF2;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:clicked {
+  color: #8E6BBF;
+}
+
+hr {
+  border-top: 2px solid #8E6BBF;
+  text-shadow: 2px 2px #AE8FD9;
+}
+
 /* NAVIGATION BAR =========================================================== */
 
 .topNav {
