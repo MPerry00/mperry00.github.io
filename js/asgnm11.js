@@ -7,6 +7,7 @@ function updateName () {
   para.textContent = `${name}`
 }
 
+
 const info = document.getElementByID("inputIceCream")
 
 para.addEventListener('click', updateFlavor);
