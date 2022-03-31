@@ -1,4 +1,4 @@
-const para = document.querySelector('h3');
+const para = document.getElementByID("inputName")
 
 para.addEventListener('click', updateName);
 
@@ -7,7 +7,7 @@ function updateName () {
   para.textContent = `${name}`
 }
 
-const info = document.querySelector('p');
+const info = document.getElementByID("inputIceCream")
 
 para.addEventListener('click', updateFlavor);
 
