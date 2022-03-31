@@ -1,4 +1,4 @@
-const para = document.getElementByID("inputName")
+const para = document.getElementByID("inputName");
 
 para.addEventListener('click', updateName);
 
