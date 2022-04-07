@@ -1,0 +1,121 @@
+body{
+  background-color: #EDE9F2
+}
+
+h1, h3, h5 {
+  font-family: Serif;
+  color: #8E6BBF;
+  font-style:normal;
+}
+
+h2, h4, h6 {
+  font-family: Serif;
+  color: #AE8FD9;
+  font-style:normal;
+}
+
+p {
+  color:black;
+}
+
+a {
+  color: #D2BBF2;
+}
+
+a hover {
+  font-weight: bold;
+}
+
+a clicked {
+  color: #8E6BBF;
+}
+
+hr {
+  border-top: 2px solid #8E6BBF;
+  text-shadow: 2px 2px #AE8FD9;
+}
+
+button {
+  background-color: #D2BBF2;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+/* LAYOUT =========================================================== */
+
+.explain {
+  grid-column: 1 / 1;
+  grid-row: 2 / 3;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+/* NAVIGATION BAR =========================================================== */
+.topNav {
+  background-color: #DED0F2;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.spacer {
+  flex-grow: 2
+}
+
+.links {
+  background-color:#DED0F2;
+  flex-grow: 1;
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top:12px;
+  text-align: right;
+}
+
+.links a{
+  flex-grow: 1;
+  color: #AE8FD9;
+}
+
+
+.button {
+  background-color: #8E6BBF;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+
+/* ANIMATION =========================================================== */
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:100%;
+  }
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+.controls {
+  animation: 5s 1 alternate slidein;
+};
