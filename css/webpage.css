@@ -3,17 +3,19 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   color: #A67B7B;
   font-style:normal;
 }
 
 p {
   color:#0D0D0D;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 a {
   color: #8C8C8C;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 a hover {
@@ -238,7 +240,7 @@ button {
   text-align: center;
   overflow: hidden;
   border-style: solid;
-  border-color: #32476B;
+  border-color: #A67B7B;
   border-width: medium;
 }
 
