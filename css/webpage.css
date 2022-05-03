@@ -229,6 +229,7 @@ button {
   border-style: solid;
   border-width: medium;
   font-weight: bold;
+  align-items: center;
 }
 
 /* ABOUT ME PAGE ============================================================ */
