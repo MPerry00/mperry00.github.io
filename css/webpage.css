@@ -222,6 +222,17 @@ button {
 }
 
 /* FINAL PROJECT ============================================================ */
+.finalIntro {
+  background-color: #EDE4E4;
+  border-style: solid;
+  border-width: medium;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  
+
+}
 
 .randomGen {
   padding-left: 2rem;
