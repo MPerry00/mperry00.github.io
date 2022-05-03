@@ -236,7 +236,6 @@ button {
 .finalIntro {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-color: #EDE4E4;
   border-style: solid;
   border-width: medium;
   font-weight: bold;
