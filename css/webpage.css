@@ -221,6 +221,16 @@ button {
   font-weight: bold;
 }
 
+/* FINAL PROJECT ============================================================ */
+
+.randomGen {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: solid;
+  border-width: medium;
+  font-weight: bold;
+}
+
 /* ABOUT ME PAGE ============================================================ */
 .intro {
   display: grid;
