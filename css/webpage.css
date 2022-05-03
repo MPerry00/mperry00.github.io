@@ -159,9 +159,11 @@ button {
 */
 /* WEB WORK ================================================================= */
 .webContent {
-  margin-top: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
-
 
 /* ASSIGNMENT 11 ============================================================ */
 .assignment11Java {
