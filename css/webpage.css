@@ -222,7 +222,20 @@ button {
 }
 
 /* FINAL PROJECT ============================================================ */
+.finalPage {
+  display: grid;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.75fr 1fr;
+  grid-gap: 1rem;
+}
+
 .finalIntro {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   background-color: #EDE4E4;
   border-style: solid;
   border-width: medium;
@@ -230,11 +243,11 @@ button {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-right: 1rem;
-  
-
 }
 
 .randomGen {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   padding-left: 2rem;
   padding-right: 2rem;
   border-style: solid;
