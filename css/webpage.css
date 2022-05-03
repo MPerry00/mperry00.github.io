@@ -228,14 +228,9 @@ button {
   padding-left: 2rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.75fr 1fr;
-  grid-gap: 1rem;
 }
 
 .finalIntro {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
   border-style: solid;
   border-width: medium;
   font-weight: bold;
@@ -246,8 +241,6 @@ button {
 }
 
 .randomGen {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
   align-items: center;
 }
 
